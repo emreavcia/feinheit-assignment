@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.pragraph_top {
+  text-align: center;
+  margin: 1em 0;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+main {
+  border: 1em solid orange;
+  padding: 1em;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+header p {
+  align-self: flex-end;
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+header img {
+  width: 7em;
+}
+
+.banner {
+  width: 100%;
+  height: 250px;
+  background-image: url("assets/visual.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-image: linear-gradient(to top, yellow, orange);
+  position: relative;
+}
+
+.banner div {
+  position: absolute;
+  border: 1px solid rgb(255, 208, 0);
+  bottom: 20%;
+  right: 5%;
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+.banner p:first-of-type,
+.banner h2 {
+  color: white;
+}
+.banner h2 {
+  font-size: medium;
+  margin: 0.3em 0.5em;
+}
+.banner p {
+  font-size: 0.2em;
+}
+.banner p:last-child {
+  font-weight: 900;
+  font-size: 0.5em;
+  line-height: 1.8;
+}
+
+.banner hr {
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.banner p:last-of-type {
+  background-color: rgb(255, 208, 0);
+}
+
+.main_content h1 {
+  font-size: 3em;
+  text-align: center;
+  margin: 1em;
+  text-transform: uppercase;
+  color: rgb(2, 65, 2);
+}
+
+.main_content hr {
+  background-color: black;
+  height: 0.15em;
+}
+
+.main_content h2 {
+  margin: 0.5em 0;
+  text-align: center;
+  font-size: 1.5em;
+  color: blueviolet;
+}
+
+.main_content p {
+  text-align: left;
+  margin: 1em 0;
+}
+
+.main_content h3 {
+  margin: 0.6em 0;
+  text-align: center;
+  color: blueviolet;
+  font-style: italic;
+}
+
+.lines {
+  color: rgb(255, 225, 0);
+  font-weight: 900;
+  font-size: 1.5em;
+  font-style: italic;
+}
+footer {
+  margin-top: 2em;
+}
+
+footer img {
+  height: 1.5em;
+}
+
+footer p {
+  font-size: 0.9em;
+}
+
+footer div p {
+  font-style: italic;
+}
+
+footer div {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p:last-of-type span {
+  background-color: yellow;
+}
